@@ -1,0 +1,34 @@
+{
+    "configuration": {
+        "type": "json",
+        "provider": "isa",
+        "ref": "sample_schema"
+    },
+    "properties": [
+        {
+            "help_tip": "A Sample represents major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": "true",
+            "specifications": [
+                "isasample",
+                "biosample"
+            ],
+            "versions": [
+                "name"
+            ],
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "label": "Name",
+            "show_in_form": true,
+            "id": "copo.sample.name",
+            "type": "string",
+            "show_in_table": true,
+            "ref": "Name",
+            "control": "text",
+            "show_as_attribute": true
+        }
+    ]
+}
