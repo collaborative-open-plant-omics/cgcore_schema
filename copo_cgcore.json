@@ -1064,7 +1064,175 @@
                 "contributor_person_hostingInstitution"
             ],
             "help_tip": "Contributor ",
-            "label": "Relation has metadata",
+            "label": "Contributor Hosting Institution",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_projectLeader",
+            "versions": [
+                "contributor_person_projectLeader"
+            ],
+            "help_tip": "Contributor Project Leader",
+            "label": "Contributor Project Leader",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_producer",
+            "versions": [
+                "contributor_person_producer"
+            ],
+            "help_tip": "Contributor Producer",
+            "label": "Contributor Producer",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        }
+        {
+            "id": "copo.dc.contributor_person_dataAnalyst",
+            "versions": [
+                "contributor_person_dataAnalyst"
+            ],
+            "help_tip": "Contributor Data Analyst",
+            "label": "Contributor Data Analyst",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_supervisor",
+            "versions": [
+                "contributor_person_supervisor"
+            ],
+            "help_tip": "Contributor Supervisor",
+            "label": "Contributor Supervisor",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_service_provider",
+            "versions": [
+                "contributor_person_service_provider"
+            ],
+            "help_tip": "Contributor Service Provider",
+            "label": "Contributor Service Provider",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_geoinformation_specialist",
+            "versions": [
+                "contributor_person_geoinformation_specialist"
+            ],
+            "help_tip": "Contributor Geoinformation Specialist",
+            "label": "Contributor Geoinformation Specialist",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_translator",
+            "versions": [
+                "contributor_person_translator"
+            ],
+            "help_tip": "Contributor Translator",
+            "label": "Contributor Translator",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
+            "id": "copo.dc.contributor_person_other",
+            "versions": [
+                "contributor_person_other"
+            ],
+            "help_tip": "Contributor Other",
+            "label": "Contributor Other",
             "type": "text",
             "control": "text",
             "unique": true,
