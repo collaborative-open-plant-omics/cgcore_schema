@@ -58,26 +58,6 @@
             "control": "select",
             "unique": true,
             "default_value": "",
-            "required": true,
-            "unique_items": [],
-            "deprecated": false,
-            "hidden": "false",
-            "show_in_form": true,
-            "show_in_table": true,
-            "ref": "",
-            "show_as_attribute": true
-        },
-        {
-            "id": "copo.dc.format",
-            "versions": [
-                "format"
-            ],
-            "help_tip": "What is the format of this item.",
-            "label": "Format",
-            "type": "text",
-            "control": "select",
-            "unique": true,
-            "default_value": "",
             "control_meta": {},
             "required": true,
             "unique_items": [],
@@ -848,27 +828,6 @@
             "show_as_attribute": true
         },
         {
-            "id": "copo.dc.relation_hasVersion",
-            "versions": [
-                "relation_hasVersion"
-            ],
-            "help_tip": "Relation Has Version",
-            "label": "Relation has part",
-            "type": "text",
-            "control": "text",
-            "unique": true,
-            "default_value": "",
-            "control_meta": {},
-            "required": true,
-            "unique_items": [],
-            "deprecated": false,
-            "hidden": "false",
-            "show_in_form": true,
-            "show_in_table": true,
-            "ref": "",
-            "show_as_attribute": true
-        },
-        {
             "id": "copo.dc.relation_isVersionOf",
             "versions": [
                 "relation_isVersionOf"
@@ -995,27 +954,6 @@
             "show_as_attribute": true
         },
         {
-            "id": "copo.dc.relation_isReferencedBy",
-            "versions": [
-                "relation_isReferencedBy"
-            ],
-            "help_tip": "Relation is referenced by",
-            "label": "Relation is referenced by",
-            "type": "text",
-            "control": "text",
-            "unique": true,
-            "default_value": "",
-            "control_meta": {},
-            "required": true,
-            "unique_items": [],
-            "deprecated": false,
-            "hidden": "false",
-            "show_in_form": true,
-            "show_in_table": true,
-            "ref": "",
-            "show_as_attribute": true
-        },
-        {
             "id": "copo.dc.relation_requires",
             "versions": [
                 "relation_requires"
@@ -1058,54 +996,33 @@
             "show_as_attribute": true
         },
         {
+            "id": "copo.dc.relation_hasMetadata",
+            "versions": [
+                "relation_hasMetadata"
+            ],
+            "help_tip": "Relation has metadata",
+            "label": "Relation has metadata",
+            "type": "text",
+            "control": "text",
+            "unique": true,
+            "default_value": "",
+            "control_meta": {},
+            "required": true,
+            "unique_items": [],
+            "deprecated": false,
+            "hidden": "false",
+            "show_in_form": true,
+            "show_in_table": true,
+            "ref": "",
+            "show_as_attribute": true
+        },
+        {
             "id": "copo.dc.relation_isMetadataFor",
             "versions": [
                 "relation_isMetadataFor"
             ],
             "help_tip": "Relation is Metadata for",
             "label": "Relation is Metadata for",
-            "type": "text",
-            "control": "text",
-            "unique": true,
-            "default_value": "",
-            "control_meta": {},
-            "required": true,
-            "unique_items": [],
-            "deprecated": false,
-            "hidden": "false",
-            "show_in_form": true,
-            "show_in_table": true,
-            "ref": "",
-            "show_as_attribute": true
-        },
-        {
-            "id": "copo.dc.relation_hasMetadata",
-            "versions": [
-                "relation_hasMetadata"
-            ],
-            "help_tip": "Relation has metadata",
-            "label": "Relation has metadata",
-            "type": "text",
-            "control": "text",
-            "unique": true,
-            "default_value": "",
-            "control_meta": {},
-            "required": true,
-            "unique_items": [],
-            "deprecated": false,
-            "hidden": "false",
-            "show_in_form": true,
-            "show_in_table": true,
-            "ref": "",
-            "show_as_attribute": true
-        },
-        {
-            "id": "copo.dc.relation_hasMetadata",
-            "versions": [
-                "relation_hasMetadata"
-            ],
-            "help_tip": "Relation has metadata",
-            "label": "Relation has metadata",
             "type": "text",
             "control": "text",
             "unique": true,
